@@ -1,0 +1,51 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Tahoma, sans-serif;
+}
+#container {
+  width: 100%;
+  background-color: #5a91bf;
+}
+input, textarea {
+  width: 93%;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  border: 1px solid white;
+  background-color: #5a91bf;
+  float: left;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #152837;
+    font-style: italic;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #152837;
+   opacity:  1;
+   font-style: italic;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #152837;
+   opacity:  1;
+   font-style: italic;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #152837;
+   font-style: italic;
+}
+.form_boxes {
+  width: 32%;
+  background-color: #5a91bf;
+  vertical-align: top;
+  display: inline-block;
+}
+p {
+  padding: 5px 0px 0px 5px;
+  margin: 0px 0px 0px 5px;
+  font-size: .5em;
+  color: white;
+}
+textarea {
+  height: 70px;
+}
